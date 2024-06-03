@@ -7,6 +7,10 @@ function redondearHaciaArriba(num) {
   // 2.5 ---> 3
   // 0.1 ---> 1
   // Tu código:
+  if (Number.isInteger(num)) {
+    return num;
+  }
+  return Math.ceil(num);
 }
 
 module.exports = redondearHaciaArriba;

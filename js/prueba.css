@@ -1,0 +1,51 @@
+.titulo {
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    http: //127.0.0.1:3000/js/prueba.html
+        http: //127.0.0.1:3000/js/prueba.html
+
+
+}
+
+.fondo {
+    background-image: url("https://img.freepik.com/fotos-premium/efecto-fotografico-creativo-polvo-aranazos-filtro-procesamiento-fotos-arte-moderno_279525-10080.jpg");
+
+}
+
+
+.sobreTitulo {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: 2s;
+    color: aliceblue;
+}
+
+.sobreTitulo :hover {
+    background-color: rgb(190, 164, 189);
+}
+
+
+.miTexto {
+    font-size: 80px;
+    color: green;
+}
+
+.logo {
+    margin: 10px 100px 10px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.container {
+    margin: auto;
+    border: 10px rgb(241, 236, 236);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* Cada uno de los elemmentos va tener a su alrededor la misma distancia */
+    justify-content: ;
+}
